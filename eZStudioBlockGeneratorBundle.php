@@ -1,6 +1,6 @@
 <?php
 
-namespace eZStudio\BlockGeneratorBundle;
+namespace DKeZStudio\BlockGeneratorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

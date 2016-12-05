@@ -1,6 +1,6 @@
 <?php
 
-namespace eZStudio\BlockGeneratorBundle\DependencyInjection;
+namespace DKeZStudio\BlockGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace eZStudio\BlockGeneratorBundle\Command;
+namespace DKeZStudio\BlockGeneratorBundle\Command;
 
 class Validators
 {
