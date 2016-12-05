@@ -1,4 +1,4 @@
 services:
 #    e_z_studio_block_generator.example:
-#        class: eZ\Studio\BlockGeneratorBundle\Example
+#        class: eZStudio\BlockGeneratorBundle\Example
 #        arguments: [@service_id, "plain_value", %parameter%]

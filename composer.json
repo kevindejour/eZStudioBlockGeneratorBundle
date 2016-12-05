@@ -1,5 +1,5 @@
 {
-    "name": "kevindejour/eZ/Studio/BlockGeneratorBundle",
+    "name": "eZStudio/BlockGeneratorBundle",
     "type": "application",
     "description": "eZ Studio Block Generator",
     "keywords": ["ezstudio"],

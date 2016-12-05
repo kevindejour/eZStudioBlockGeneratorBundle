@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace eZ\Studio\BlockGeneratorBundle\Command;
+namespace eZStudio\BlockGeneratorBundle\Command;
 
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\DependencyInjection\Container;

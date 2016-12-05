@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace eZ\Studio\BlockGeneratorBundle\Command;
+namespace eZStudio\BlockGeneratorBundle\Command;
 
 use Symfony\Component\HttpKernel\Bundle\BundleInterface;
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
@@ -51,8 +51,8 @@ abstract class GeneratorCommand extends ContainerAwareCommand
             $skeletonDirs[] = $dir;
         }
 
-        $skeletonDirs[] = __DIR__.'/../Resources/skeleton';
-        $skeletonDirs[] = __DIR__.'/../Resources';
+        $skeletonDirs[] = __DIR__ . '/../Resources/skeleton';
+        $skeletonDirs[] = __DIR__ . '/../Resources';
 
         return $skeletonDirs;
     }

@@ -16,7 +16,7 @@ rm -rf eZStudioBlockGeneratorBundle/
 add to your app/AppKernel.php
 
 ```
-new eZ\Studio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
+new eZStudio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
 
 ```
 

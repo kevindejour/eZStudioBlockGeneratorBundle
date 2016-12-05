@@ -6,10 +6,10 @@
  * Kevin DEJOUR <kevin.dejour@ez.no>
  */
 
-namespace eZ\Studio\BlockGeneratorBundle\Command;
+namespace eZStudio\BlockGeneratorBundle\Command;
 
-use eZ\Studio\BlockGeneratorBundle\Command\GeneratorCommand;
-use eZ\Studio\BlockGeneratorBundle\Command\eZStudioBlockBundleGenerator as BundleGenerator;
+use eZStudio\BlockGeneratorBundle\Command\GeneratorCommand;
+use eZStudio\BlockGeneratorBundle\Command\eZStudioBlockBundleGenerator as BundleGenerator;
 use Sensio\Bundle\GeneratorBundle\Command\Validators;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
@@ -21,7 +21,7 @@ use Symfony\Component\HttpKernel\KernelInterface;
 use Sensio\Bundle\GeneratorBundle\Manipulator\KernelManipulator;
 use Sensio\Bundle\GeneratorBundle\Manipulator\RoutingManipulator;
 use Sensio\Bundle\GeneratorBundle\Command\Helper\QuestionHelper;
-use eZ\Studio\BlockGeneratorBundle\Command\Validators as eZValidators;
+use eZStudio\BlockGeneratorBundle\Command\Validators as eZValidators;
 
 class eZStudioBlockGeneratorCommand extends GeneratorCommand
 {
@@ -288,7 +288,7 @@ EOT
             ));
             $question = new Question($questionHelper->getQuestion('Name of your eZStudio Block', $input->getOption('blockname')), $input->getOption('blockname'));
             $question->setValidator(
-                array('eZ\Studio\BlockGeneratorBundle\Command\Validators', 'validateBlockName')
+                array('eZStudio\BlockGeneratorBundle\Command\Validators', 'validateBlockName')
             );
             $blockname = $questionHelper->ask($input, $output, $question);
             $input->setOption('blockname', $blockname);
@@ -310,7 +310,7 @@ EOT
             ));
             $question = new Question($questionHelper->getQuestion('Number of fields for your eZStudio Block', $input->getOption('fieldsnumber')), $input->getOption('fieldsnumber'));
             $question->setValidator(
-                array('eZ\Studio\BlockGeneratorBundle\Command\Validators', 'validateFieldsNumber')
+                array('eZStudio\BlockGeneratorBundle\Command\Validators', 'validateFieldsNumber')
             );
             $fieldsnumber = $questionHelper->ask($input, $output, $question);
             $input->setOption('fieldsnumber', $fieldsnumber);
@@ -326,7 +326,7 @@ EOT
             ));
             $question = new Question($questionHelper->getQuestion('Field type for field '.$i.' (integer, string, text, multiple or embed)', null));
             $question->setValidator(
-                array('eZ\Studio\BlockGeneratorBundle\Command\Validators', 'validateFieldsType')
+                array('eZStudio\BlockGeneratorBundle\Command\Validators', 'validateFieldsType')
             );
             $type[$i] = $questionHelper->ask($input, $output, $question);
             $input->setOption('type', $type);

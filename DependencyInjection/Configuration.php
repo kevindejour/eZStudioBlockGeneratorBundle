@@ -1,6 +1,6 @@
 <?php
 
-namespace eZ\Studio\BlockGeneratorBundle\DependencyInjection;
+namespace eZStudio\BlockGeneratorBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
