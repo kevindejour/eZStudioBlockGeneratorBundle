@@ -1,0 +1,8 @@
+services:
+{% block services %}
+  blocks.{{ blockname_lower }}block:
+    class: {{ namespace }}\Model\{{ blockname_lower}}block
+    tags:
+     - { name: landing_page_field_type.block_type, alias: {{ blockname_lower }}block }
+    #arguments: [@service_id, "plain_value", %parameter%]
+{% endblock services %}

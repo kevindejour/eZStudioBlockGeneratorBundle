@@ -1,0 +1,17 @@
+{
+    "name": "eZ/Studio/BlockGeneratorBundle",
+    "type": "application",
+    "description": "eZ Studio Block Generator",
+    "keywords": ["ezstudio"],
+    "homepage": "https://github.com/kevindejour/eZStudioBlockGeneratorBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin DEJOUR",
+            "email": "dejourk@gmail.com"
+        }
+    ],
+    "require": {
+        "ezsystems/landing-page-fieldtype-bundle": "1.0"
+    }
+}
