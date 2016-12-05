@@ -7,13 +7,13 @@ How to install:
 add to your composer 
 
 ```
-composer require dk-ez-studio/block-generator-bundle
+composer require dk-ez-studio/block-generator-bundle dev-master
 
 ```
 add to your app/AppKernel.php
 
 ```
-new eZStudio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
+new DKeZStudio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
 
 ```
 
@@ -63,4 +63,6 @@ Field type for field 5 (integer, string, text, multiple or embed): embed
 
 ```
 
-and VOILA !
+and VOILA ! :D
+
+ps: don't forget to update frequently, it's still in dev ;)
