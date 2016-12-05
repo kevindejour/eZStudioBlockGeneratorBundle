@@ -1,5 +1,6 @@
 {
-    "name": "DKeZStudio/BlockGeneratorBundle",
+    "name": "dk-ez-studio/block-generator-bundle",
+    "target-dir": "DKeZStudio/BlockGeneratorBundle",
     "type": "application",
     "description": "eZ Studio Block Generator",
     "keywords": ["ezstudio"],
