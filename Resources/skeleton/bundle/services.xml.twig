@@ -7,10 +7,8 @@
     <!--
     <services>
 {% block services %}
-        <service id="{{ extension_alias }}.example" class="{{ namespace }}\Example">
-            <argument type="service" id="service_id" />
-            <argument>plain_value</argument>
-            <argument>%parameter_name%</argument>
+        <service id="blocks.{{ blockname_lower }}block" class="{{ namespace }}\Model\{{ blockname_lower}}block">
+            <tag name="landing_page_field_type.block_type" alias="{{ blockname_lower }}block">
         </service>
 {% endblock services %}
     </services>

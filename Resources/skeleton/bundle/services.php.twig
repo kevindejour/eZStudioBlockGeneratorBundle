@@ -9,16 +9,10 @@ use Symfony\Component\DependencyInjection\Parameter;
 /*
 
 {% block services %}
+$definition = new Definition('{{ namespace }}\Model\{{ blockname_lower}}block');
+$definition->addTag('landing_page_field_type.block_type', array('alias' => '{{ blockname_lower }}block'));
 $container->setDefinition(
-    '{{ extension_alias }}.example',
-    new Definition(
-        '{{ namespace }}\Example',
-        array(
-            new Reference('service_id'),
-            "plain_value",
-            new Parameter('parameter_name'),
-        )
-    )
+    'blocks.{{ blockname_lower }}block', $definition
 );
 {% endblock services %}
 
