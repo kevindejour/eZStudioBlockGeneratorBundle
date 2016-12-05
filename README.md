@@ -13,7 +13,7 @@ composer require dk-ez-studio/block-generator-bundle dev-master
 add to your app/AppKernel.php
 
 ```
-new eZStudio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
+new DKeZStudio\BlockGeneratorBundle\eZStudioBlockGeneratorBundle()
 
 ```
 
