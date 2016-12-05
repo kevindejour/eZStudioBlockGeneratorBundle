@@ -4,13 +4,10 @@ A Bungle with a eZ Studio Block Generator
 
 How to install:
 
-For now, need to git checkout on your src folder of your ezstudio installation
+add to your composer 
 
 ```
-cd src
-git clone https://github.com/kevindejour/eZStudioBlockGeneratorBundle.git
-mv eZStudioBlockGeneratorBundle/eZ ./eZ
-rm -rf eZStudioBlockGeneratorBundle/
+composer require dk-ez-studio/block-generator-bundle
 
 ```
 add to your app/AppKernel.php
