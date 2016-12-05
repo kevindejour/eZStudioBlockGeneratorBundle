@@ -1,1 +1,5 @@
 My HTML code and variables {% raw %}{# block #}{% endraw %}
+
+{% for type in type -%}
+    Field {{ loop.index }} : {% raw %} {{ {% endraw %}block.attributes.field{{ loop.index }}{% raw %} }} {% endraw %}
+{% endfor -%}
