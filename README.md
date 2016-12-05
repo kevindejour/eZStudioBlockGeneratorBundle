@@ -7,7 +7,7 @@ How to install:
 add to your composer 
 
 ```
-composer require dk-ez-studio/block-generator-bundle
+composer require dk-ez-studio/block-generator-bundle dev-master
 
 ```
 add to your app/AppKernel.php
