@@ -12,6 +12,6 @@
         }
     ],
     "require": {
-        "ezsystems/landing-page-fieldtype-bundle": "1.0"
+        "ezsystems/landing-page-fieldtype-bundle": ">=1.0"
     }
 }
