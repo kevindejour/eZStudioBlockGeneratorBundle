@@ -64,3 +64,5 @@ Field type for field 5 (integer, string, text, multiple or embed): embed
 ```
 
 and VOILA ! :D
+
+ps: don't forget to update frequently, it's still in dev ;)
